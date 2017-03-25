@@ -32,19 +32,19 @@ engine.cosmos.registerBlock({
 
 engine.cosmos.registerBlock({
 	name = "stone",
-	type = BlockType.DISPLACED_CUBE,
+	type = BlockType.CUBE,
 	texture = "blocks/stone.png"
 })
 
 engine.cosmos.registerBlock({
 	name = "dirt",
-	type = BlockType.DISPLACED_CUBE,
+	type = BlockType.CUBE,
 	texture = "blocks/dirt.png"
 })
 
 engine.cosmos.registerBlock({
 	name = "grass",
-	type = BlockType.DISPLACED_CUBE,
+	type = BlockType.CUBE,
 	texture = {
 		"blocks/dirt-grass.png",
 		"blocks/dirt-grass.png",
