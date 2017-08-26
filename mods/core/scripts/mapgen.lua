@@ -25,13 +25,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --]]
 
 
-local air = engine.cosmos.getBlockId("air")
-local stone = engine.cosmos.getBlockId("stone")
-local dirt = engine.cosmos.getBlockId("dirt")
-local grass = engine.cosmos.getBlockId("grass")
+local air = cosmos.getBlockId("air")
+local stone = cosmos.getBlockId("stone")
+local dirt = cosmos.getBlockId("dirt")
+local grass = cosmos.getBlockId("grass")
 
-local noise = engine.support.createNoise({
-	seed = engine.cosmos.seed("primary"),
+local noise = support.createNoise({
+	seed = cosmos.seed("primary"),
 	octaves = 7,
 	persistence = 0.7,
 	scaleX = 128,

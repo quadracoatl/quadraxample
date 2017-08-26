@@ -25,24 +25,24 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --]]
 
 
-engine.cosmos.registerBlock({
+cosmos.registerBlock({
 	name = "air",
 	type = BlockType.NONE
 })
 
-engine.cosmos.registerBlock({
+cosmos.registerBlock({
 	name = "stone",
 	type = BlockType.CUBE,
 	texture = "blocks/stone.png"
 })
 
-engine.cosmos.registerBlock({
+cosmos.registerBlock({
 	name = "dirt",
 	type = BlockType.CUBE,
 	texture = "blocks/dirt.png"
 })
 
-engine.cosmos.registerBlock({
+cosmos.registerBlock({
 	name = "grass",
 	type = BlockType.CUBE,
 	texture = {

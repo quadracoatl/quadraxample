@@ -27,7 +27,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 mods.core.realms = {}
 
-mods.core.realms.default = engine.cosmos.registerRealm({
+mods.core.realms.default = cosmos.registerRealm({
 	name = "default",
 	chunkWidth = 16,
 	chunkHeight = 32,
